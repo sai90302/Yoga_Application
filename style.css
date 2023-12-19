@@ -1,0 +1,71 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input, select {
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  width: 100%;
+}
+
+button {
+  background-color: #3385ff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  margin-left: 40%;
+}
+
+button:hover {
+  background-color: #2f79e6;
+}
+
+.checkbox {
+  display: flex;
+
+  /* Add justify-content: flex-start; to align elements to the left */
+  justify-content: flex-start;
+}
+.checkbox input {
+  margin-right: 5px;
+}
+
+.wid{
+  width: 5%;
+}
+
+.fin{
+  margin-left: 10%;
+  margin-top: 15%;
+  text-align: center;
+  font-size: 10px;
+}
